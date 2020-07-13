@@ -1,0 +1,23 @@
+# globally ignore folders named target
+target/
+bin
+
+.m2
+.flattened-pom.xml
+.settings
+.project
+.classpath
+
+# Do not check in any log files
+*.log
+thesis/m-thesis-froehlich.aux
+thesis/m-thesis-froehlich.bbl
+thesis/m-thesis-froehlich.blg
+thesis/m-thesis-froehlich.lof
+thesis/m-thesis-froehlich.lot
+thesis/m-thesis-froehlich.out
+thesis/m-thesis-froehlich.pdf
+thesis/m-thesis-froehlich.synctex.gz
+thesis/m-thesis-froehlich.toc
+thesis/.DS_Store
+.DS_Store

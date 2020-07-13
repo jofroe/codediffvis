@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="../css/popup-styles.css">
+  <link rel="stylesheet" href="../lib/fontawesome-free/css/solid.min.css">
+  <link rel="stylesheet" href="../lib/fontawesome-free/css/fontawesome.min.css">
+</head>
+
+<body>
+
+  <div class="tab">
+    <div class="btn-tab-settings"><i class="fas fa-cog"></i></div>
+    <p id="manifest-version" class="manifest-version padded">v0.1</p>
+    <h1 id="tab-title" class="title">Settings</h1>
+  </div>
+
+  <div id="content-vis" class="tabcontent"></div>
+
+  <div id="content-settings" class="tabcontent">
+    <div class="padded">
+      <div class="settings-field">
+        <label for="jenkins">Json URL</label>
+        <input id="input-source" class="settings-input" type="text" />
+      </div>
+      <div class="settings-field">
+        <label for="sources" id="label-slider-mode"></label>
+        <div class="slider-container">
+          <label class="switch">
+            <input type="checkbox" id="slider-mode" class="settings-slider">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="settings-field">
+        <label for="sources" id="label-slider-nonjava"></label>
+        <div class="slider-container">
+          <label class="switch">
+            <input type="checkbox" id="slider-nonjava" class="settings-slider">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="settings-field">
+        <label for="sources" id="label-slider-generated"></label>
+        <div class="slider-container">
+          <label class="switch">
+            <input type="checkbox" id="slider-generated" class="settings-slider">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <div class="settings-field">
+        <label for="sources" id="label-slider-methods"></label>
+        <div class="slider-container">
+          <label class="switch">
+            <input type="checkbox" id="slider-methods" class="settings-slider">
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="../js/popup.js"></script>
+</body>
+
+</html>
